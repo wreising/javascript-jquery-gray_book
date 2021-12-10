@@ -18,12 +18,12 @@ var parkHotel = new Hotel('Park', 120, 77);
 var details1 = quayHotel.name + ' rooms: ';
     details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById('hotel1');
-elHotel1.textContent = details1;
+	elHotel1.textContent = details1;
 
 var details2 = parkHotel.name + ' rooms: ';
     details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById('hotel2');
-elHotel2.textContent = details2;
+	elHotel2.textContent = details2;
 
 /* 
 NOTE: textContent does not work in IE8 or earlier
